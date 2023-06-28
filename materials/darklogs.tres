@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://bpteck8ptpc4q"]
+
+[ext_resource type="Texture2D" uid="uid://bqfhk65q3uhwl" path="res://textures/logs.jpg" id="1_1s3rp"]
+[ext_resource type="Texture2D" uid="uid://3rb67gpf6c4n" path="res://textures/cobblestoneNM.jpg" id="2_0lyqq"]
+
+[resource]
+albedo_color = Color(0.506805, 0.36326, 0.296734, 1)
+albedo_texture = ExtResource("1_1s3rp")
+normal_enabled = true
+normal_texture = ExtResource("2_0lyqq")
+uv1_scale = Vector3(0.75, 2, 5)
+uv1_triplanar = true
